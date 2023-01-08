@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    /*====Header ===*/
+
+
+
+    header {
+        background-image: url('../images/banner/banner3.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 1000px;
+    }
+
+    /*== banner section starts ==*/
+
+    .banner{
+        display: flex;
+        gap: 660px;
+        align-items: center;
+        padding-top: 210px;
+        padding-left: 200px;
+        margin-right: 200px;
+    }
+
+    .banner-title{
+        font-size: 65px;
+        color: white;
+        text-align: right;
+        width: 525px;
+        height: 228px;
+    }
+
+    .banner-description{
+        margin-top: 60px;
+        text-align: right;
+        margin-left: 25px;
+        color: white;
+        width: 494px;
+        height: 78px;
+
+    }
+
+    .banner-button{
+        margin-top: 30px;
+        text-align: right;
+        padding: 18px 36px;
+        font-size: 20px;
+        color: #005FAC;
+        font-weight: 700;
+        margin-left: 335px; 
+    }
+
+
+    /*== banner section ends ==*/
+    
