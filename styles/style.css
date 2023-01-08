@@ -55,4 +55,36 @@
 
 
     /*== banner section ends ==*/
+
+
+
+/* last year section: starts */
+
+.last-year{
+    display: flex;
+    gap: 130px;
+    
+    
+}
+
+.person{
+    padding-left: 200px;
+}
+
+.last-year-title{
+    font-size: 30px;
+    font-weight: 700;
+    width: 288px;
+    height: 94px;
+}
+
+
+.person-works-last-year{
+    padding-top: 300px;
+    padding-right: 200px;
+}
+    .correct-mark{
+        color:#16D887;
+        ;
+    }
     
