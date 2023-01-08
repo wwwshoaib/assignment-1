@@ -1,77 +1,75 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-    /*====Header ===*/
+/*====Header ===*/
 
 
 
-    header {
-        background-image: url('../images/banner/banner3.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 1000px;
-    }
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
 
-    /*== banner section starts ==*/
+/*== banner section starts ==*/
 
-    .banner{
-        display: flex;
-        gap: 660px;
-        align-items: center;
-        padding-top: 210px;
-        padding-left: 200px;
-        margin-right: 200px;
-    }
+.banner {
+    display: flex;
+    gap: 660px;
+    align-items: center;
+    padding-top: 210px;
+    padding-left: 200px;
+    margin-right: 200px;
+}
 
-    .banner-title{
-        font-size: 65px;
-        color: white;
-        text-align: right;
-        width: 525px;
-        height: 228px;
-    }
+.banner-title {
+    font-size: 65px;
+    color: white;
+    text-align: right;
+    width: 525px;
+    height: 228px;
+}
 
-    .banner-description{
-        margin-top: 60px;
-        text-align: right;
-        margin-left: 25px;
-        color: white;
-        width: 494px;
-        height: 78px;
+.banner-description {
+    margin-top: 60px;
+    text-align: right;
+    margin-left: 25px;
+    color: white;
+    width: 494px;
+    height: 78px;
 
-    }
+}
 
-    .banner-button{
-        margin-top: 30px;
-        text-align: right;
-        padding: 18px 36px;
-        font-size: 20px;
-        color: #005FAC;
-        font-weight: 700;
-        margin-left: 335px; 
-    }
+.banner-button {
+    margin-top: 30px;
+    text-align: right;
+    padding: 18px 36px;
+    font-size: 20px;
+    color: #005FAC;
+    font-weight: 700;
+    margin-left: 335px;
+}
 
 
-    /*== banner section ends ==*/
+/*== banner section ends ==*/
 
 
 
 /* last year section: starts */
 
-.last-year{
+.last-year {
     display: flex;
     gap: 130px;
-    
-    
 }
 
-.person{
+.person {
     padding-left: 200px;
 }
 
-.last-year-title{
+.last-year-title {
     font-size: 30px;
     font-weight: 700;
     width: 288px;
@@ -79,12 +77,39 @@
 }
 
 
-.person-works-last-year{
+.person-works-last-year {
     padding-top: 300px;
     padding-right: 200px;
 }
-    .correct-mark{
-        color:#16D887;
-        ;
-    }
-    
+
+
+.correct-mark {
+    color: #16D887;
+
+}
+
+/* last year section: ended */
+
+
+
+
+/* my plans section: start */
+
+.my-plans{
+    display: flex;
+    gap: 150px;
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+.plan-title{
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.plan-sub-title{
+    font-size: 30px;
+    font-weight: 700;
+}
